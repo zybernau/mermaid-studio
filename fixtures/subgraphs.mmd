@@ -1,0 +1,8 @@
+flowchart TD
+    subgraph one [Frontend]
+        A[Web] --> B[API]
+    end
+    subgraph two [Backend]
+        C[DB] --> D[Cache]
+    end
+    B --> C
